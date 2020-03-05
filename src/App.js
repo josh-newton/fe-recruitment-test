@@ -1,10 +1,12 @@
 import { h, render } from 'preact';
 
+import Hero from './components/Hero/';
+
 const App = () => {
 
   return (
     <div className="App">
-      <p>Hello world</p>
+      <Hero />
     </div>
   );
 };
