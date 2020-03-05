@@ -11,7 +11,7 @@ const App = () => {
       <Grid />
     </div>
   );
-  
+
 };
 
 export default App;

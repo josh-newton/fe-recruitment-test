@@ -34,7 +34,11 @@ class Tile extends Component {
 
     return (
       <div key={key} className="Tile">
-        <img className="img" src={this.getImageSrc(img, imgOptions)} />
+        <div className="img" style={'background-image: url("' + this.getImageSrc(img, imgOptions) + '");'}>
+        <div className="logo">
+          <img className="merchant-logo" src={this.getImageSrc(merchantLogo, 'w_75,')} />
+        </div>
+        </div>
         <div className="content">
           <div className="header">
             <h2 className="merchant-name">{merchantName}</h2>

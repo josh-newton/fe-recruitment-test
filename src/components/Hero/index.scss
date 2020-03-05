@@ -1,19 +1,33 @@
 .Hero{
-  .Tile{
-    flex-direction: row;
-    justify-content: space-between;
-    .img{
-      border-radius: 10px 0 0 10px;
-      border-right: 1px solid #fff;
-      border-bottom: none;
-      margin-right: 0;
-      width: 75%;
-    }
-    .content{
-      padding: 0 10px;
-    }
-    .header{
-      margin-top: 0;
+
+  @import '../../styles/variables/base';
+  @import '../../styles/mixins/base';
+
+  @include breakpoint('lg'){
+     .Tile{
+       display: flex;
+       .img{
+         border-bottom: none;
+         border-right: 2px solid #fff;
+         border-radius: 4px 0 0 4px;
+       }
+       .logo{
+         bottom: auto;
+         top: 12px;
+       }
+       .statistics{
+         text-align: right;
+       }
+       .content{
+         min-width: 270px;
+       }
+     }
+  }
+
+  @include breakpoint('xs'){
+    .Tile{
+      background: #1D1128;
     }
   }
+
 }

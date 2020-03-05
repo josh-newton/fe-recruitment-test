@@ -51,7 +51,7 @@ class Grid extends Component {
           merchantName={item.merchant.merchantName}
           merchantLogo={item.merchant.merchantMedia[0].mediaUrl}
           img={item.offerMedia[1].mediaUrl}
-          imgOptions="h_250,"
+          imgOptions="w_600,"
           title={item.offerTitle}
           callout={item.calloutValue}
           isExclusive={item.isExclusive}
