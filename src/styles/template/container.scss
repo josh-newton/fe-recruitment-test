@@ -10,14 +10,14 @@
    box-sizing: border-box;
 
    @include breakpoint('md') {
-      max-width: $screen-md;
+      max-width: $screen-md - 100px;
    }
 
    @include breakpoint('lg') {
-      max-width: $screen-lg;
+      max-width: $screen-lg - 100px;
    }
 
    @include breakpoint('xl') {
-      max-width: $screen-xl;
+      max-width: $screen-xl - 100px;
    }
 }

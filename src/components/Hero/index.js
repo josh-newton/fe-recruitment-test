@@ -50,8 +50,9 @@ class Hero extends Component {
           merchantName={data.merchant.merchantName}
           merchantLogo={data.merchant.merchantMedia[0].mediaUrl}
           img={data.offerMedia[1].mediaUrl}
-          imgOptions="w_550,"
+          imgOptions=""
           title={data.offerTitle}
+          callout={data.calloutValue}
           isExclusive={data.isExclusive}
           redeemCount={data.offerStatistics.redemptionCount7Day}
           expiry={data.expiryDateTime}

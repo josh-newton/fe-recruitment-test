@@ -1,3 +1,19 @@
 .Hero{
-  
+  .Tile{
+    flex-direction: row;
+    justify-content: space-between;
+    .img{
+      border-radius: 10px 0 0 10px;
+      border-right: 1px solid #fff;
+      border-bottom: none;
+      margin-right: 0;
+      width: 75%;
+    }
+    .content{
+      padding: 0 10px;
+    }
+    .header{
+      margin-top: 0;
+    }
+  }
 }

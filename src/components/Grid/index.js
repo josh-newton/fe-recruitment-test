@@ -51,8 +51,9 @@ class Grid extends Component {
           merchantName={item.merchant.merchantName}
           merchantLogo={item.merchant.merchantMedia[0].mediaUrl}
           img={item.offerMedia[1].mediaUrl}
-          imgOptions="w_200,"
+          imgOptions="h_250,"
           title={item.offerTitle}
+          callout={item.calloutValue}
           isExclusive={item.isExclusive}
           redeemCount={item.offerStatistics.redemptionCount7Day}
           expiry={item.expiryDateTime}

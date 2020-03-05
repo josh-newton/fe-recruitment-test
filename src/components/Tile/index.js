@@ -26,6 +26,7 @@ class Tile extends Component {
       img,
       imgOptions,
       title,
+      callout,
       isExclusive,
       redeemCount,
       expiry,
@@ -35,20 +36,18 @@ class Tile extends Component {
       <div key={key} className="Tile">
         <img className="img" src={this.getImageSrc(img, imgOptions)} />
         <div className="content">
-          <div className="information">
+          <div className="header">
             <h2 className="merchant-name">{merchantName}</h2>
-            <p className="title">
-              { isExclusive && <span className="exclusive">Groupon Exclusive: </span> }
-              {title}
-            </p>
-            <p className="statistics">
-              <span className="redemption-count">{redeemCount}</span> used | Expires&nbsp;
-              <span className="expiry">{this.formatDate(expiry)}</span>
-            </p>
+            <p className="callout">{callout}</p>
           </div>
-          <div className="link">
-            <img className="merchant-logo" src={this.getImageSrc(merchantLogo, 'w_75,')} />
-            <button>See Code</button>
+          <p className="title">
+            {title}
+          </p>
+          <div className="footer">
+            <button className="link">See Code</button>
+            <p className="statistics">
+              Expires {this.formatDate(expiry)}
+            </p>
           </div>
         </div>
       </div>
