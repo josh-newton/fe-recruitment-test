@@ -1,4 +1,5 @@
 import { h, render, Component } from 'preact';
+import './index.scss';
 
 const POPULAR_URL = '//localhost:6060/offers/popular';
 const HEADERS = { headers: { 'X-ApiKey': 'letmein!' } };

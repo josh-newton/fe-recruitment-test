@@ -1,4 +1,5 @@
 import { h, render, Component } from 'preact';
+import './index.scss';
 
 const HERO_URL = '//localhost:6060/offers/category';
 const HEADERS = { headers: { 'X-ApiKey': 'letmein!' } };
