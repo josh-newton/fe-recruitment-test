@@ -1,4 +1,6 @@
 import { h, render, Component } from 'preact';
+
+import Tile from '../Tile/';
 import './index.scss';
 
 const HERO_URL = '/offers/category';
@@ -10,15 +12,9 @@ class Hero extends Component {
   constructor() {
     super();
     this.state = {
+      data: null,
       isLoaded: false,
-      error: false,
-      merchantName: null,
-      merchantLogo: null,
-      img: null,
-      title: null,
-      isExclusive: null,
-      redeemCount: null,
-      expiry: null,
+      error: false
     }
   }
 
@@ -28,16 +24,7 @@ class Hero extends Component {
       .then((data) => {
         console.log(data);
         data = data.category.premiumOffers[0];
-        this.setState({
-          merchantName: data.merchant.merchantName,
-          merchantLogo: this.getImageSrc(data.merchant.merchantMedia[0].mediaUrl, 'w_75,'),
-          img: this.getImageSrc(data.offerMedia[1].mediaUrl, 'w_550,'),
-          title: data.offerTitle,
-          isExclusive: data.isExclusive,
-          redeemCount: data.offerStatistics.redemptionCount7Day,
-          expiry: this.formatDate(data.expiryDateTime),
-          isLoaded: true
-        })
+        this.setState({ data: data, isLoaded: true })
       })
       .catch((error) => {
         console.error('Error loading Hero data: ', error);
@@ -55,17 +42,7 @@ class Hero extends Component {
   }
 
   render() {
-    const {
-      isLoaded,
-      error,
-      merchantName,
-      merchantLogo,
-      img,
-      title,
-      isExclusive,
-      redeemCount,
-      expiry,
-    } = this.state;
+    const { data, isLoaded, error } = this.state;
 
     // Something went wrong, or still loading
     if (error) {
@@ -77,24 +54,18 @@ class Hero extends Component {
     // Everything is working...
     return (
       <div className="Hero">
-        <img className="hero-img" src={img} />
-        <div className="hero-content">
-          <div className="information">
-            <h2 className="merchant-name">{merchantName}</h2>
-            <p className="hero-title">
-              { isExclusive && <span className="exclusive">Groupon Exclusive: </span> }
-              {title}
-            </p>
-            <p className="statistics">
-              <span className="redemption-count">{redeemCount}</span> used | Expires&nbsp;
-              <span className="expiry">{expiry}</span>
-            </p>
-          </div>
-          <div className="link">
-            <img className="merchant-logo" src={merchantLogo} />
-            <button>See Code</button>
-          </div>
-        </div>
+        <Tile
+          key="hero"
+          merchantName={data.merchant.merchantName}
+          merchantLogo={data.merchant.merchantMedia[0].mediaUrl}
+          img={data.offerMedia[1].mediaUrl}
+          imgOptions={data.imgOptions}
+          title={data.offerTitle}
+          isExclusive={data.isExclusive}
+          redeemCount={data.offerStatistics.redemptionCount7Day}
+          expiry={data.expiryDateTime}
+        />
+
       </div>
     );
   }
