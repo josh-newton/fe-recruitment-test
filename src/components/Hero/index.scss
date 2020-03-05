@@ -1,50 +1,50 @@
 .Hero{
-  $heroPadding: 10px;
-  $grouponGreen: #53a319;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   margin: 10px 0;
   background: #fff;
   padding: 10px;
   border-radius: 4px;
 
-  .img{
+  .hero-img{
     margin: -10px;
     border-radius: 4px 4px 0 0;
   }
 
-  .content{
+  .hero-content{
     display: flex;
   }
 
-  .left{
+  .information{
     width: 80%;
 
-    .merchant{
+    .merchant-name{
       margin: 20px 0 10px 0;
     }
-    .title{
+    .hero-title{
       margin: 0 0 10px 0;
     }
-    .stats{
+    .statistics{
       font-size: 14px;
       margin: 20px 0 0 0;
       color: #aaa;
     }
   }
 
-  .right{
+  .link{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -50px;
 
+    .merchant-logo{
+      border-radius: 4px;
+    }
+
     button{
       margin-top: 10px;
-      background: $grouponGreen;
+      background: #53a319;
       color: white;
       padding: 5px;
       border-radius: 4px;
@@ -52,9 +52,6 @@
       margin-top: 20px;
       border: none;
       cursor: pointer;
-    }
-    .merchant-logo{
-      border-radius: 4px;
     }
   }
 }

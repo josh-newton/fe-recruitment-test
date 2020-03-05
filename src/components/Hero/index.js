@@ -10,66 +10,87 @@ class Hero extends Component {
   constructor() {
     super();
     this.state = {
-      data: null,
       isLoaded: false,
-      error: null
+      error: false,
+      merchantName: null,
+      merchantLogo: null,
+      img: null,
+      title: null,
+      isExclusive: null,
+      redeemCount: null,
+      expiry: null,
     }
   }
 
   componentDidMount() {
     fetch(HERO_URL, HEADERS)
       .then(response => response.json())
-      .then((data) => this.setState({ data: data.category.premiumOffers[0], isLoaded: true }))
-      .catch((error) => this.setState({ error: error }));
+      .then((data) => {
+        data = data.category.premiumOffers[0];
+        this.setState({
+          merchantName: data.merchant.merchantName,
+          merchantLogo: this.getImageSrc(data.merchant.merchantMedia[0].mediaUrl, 'w_75,'),
+          img: this.getImageSrc(data.offerMedia[1].mediaUrl, 'w_550,'),
+          title: data.offerTitle,
+          isExclusive: data.isExclusive,
+          redeemCount: data.offerStatistics.redemptionCount7Day,
+          expiry: this.formatDate(data.expiryDateTime),
+          isLoaded: true
+        })
+      })
+      .catch((error) => {
+        console.error('Error loading Hero data: ', error);
+        this.setState({ error: true })
+      });
+  }
+
+  formatDate(dateString) {
+    let date = new Date(dateString);
+    return date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear();
+  }
+
+  getImageSrc(srcString, options) {
+    return srcString !== null ? srcString.replace(/{{options}}/g, options) : '';
   }
 
   render() {
-    const { data, isLoaded, error } = this.state;
-    const options = 'w_550,';
-    let imgSrc;
-    if(isLoaded === true){
-      imgSrc = data.offerMedia[1].mediaUrl.replace(/{{options}}/g, options);
-    } else {
-      imgSrc = '';
-    }
+    const {
+      isLoaded,
+      error,
+      merchantName,
+      merchantLogo,
+      img,
+      title,
+      isExclusive,
+      redeemCount,
+      expiry,
+    } = this.state;
 
-    console.log(data);
-
-    // Something went wrong
-    if (error !== null) {
-      return (
-        <p>Error loading hero data: { error }</p>
-      );
+    // Something went wrong, or still loading
+    if (error) {
+      return ( <p>Something seems to be wrong. Please refresh and try again.</p> );
+    } else if (!isLoaded) {
+      return ( <p>Loading...</p> );
     }
-    // Display loading until fetch data has finished
-    if (isLoaded === false) {
-      return (
-        <p>Loading animation here!</p>
-      );
-    }
-
 
     // Everything is working...
     return (
       <div className="Hero">
-        <img className="img" src={imgSrc} />
-        <div className="content">
-          <div className="left">
-            <h2 className="merchant">{data.merchant.merchantName}</h2>
-            <p className="title">
-              {
-                data.isExclusive &&
-                <span className="exclusive">Groupon Exclusive: </span>
-              }
-              {data.offerTitle}
+        <img className="hero-img" src={img} />
+        <div className="hero-content">
+          <div className="information">
+            <h2 className="merchant-name">{merchantName}</h2>
+            <p className="hero-title">
+              { isExclusive && <span className="exclusive">Groupon Exclusive: </span> }
+              {title}
             </p>
-            <p className="stats">
-              <span className="redemptionCount">{data.offerStatistics.redemptionCount7Day}</span> used | Expires&nbsp;
-              <span className="Expiry">{new Date(data.expiryDateTime).getDate()}/{new Date(data.expiryDateTime).getMonth()}/{new Date(data.expiryDateTime).getFullYear()}</span>
+            <p className="statistics">
+              <span className="redemption-count">{redeemCount}</span> used | Expires&nbsp;
+              <span className="expiry">{expiry}</span>
             </p>
           </div>
-          <div className="right">
-            <img className="merchant-logo" src={data.merchant.merchantMedia[0].mediaUrl.replace(/{{options}}/g, 'w_75,')} />
+          <div className="link">
+            <img className="merchant-logo" src={merchantLogo} />
             <button>See Code</button>
           </div>
         </div>
