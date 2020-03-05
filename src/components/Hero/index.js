@@ -26,6 +26,7 @@ class Hero extends Component {
     fetch(HERO_URL, HEADERS)
       .then(response => response.json())
       .then((data) => {
+        console.log(data);
         data = data.category.premiumOffers[0];
         this.setState({
           merchantName: data.merchant.merchantName,

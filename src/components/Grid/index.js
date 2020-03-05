@@ -1,4 +1,6 @@
 import { h, render, Component } from 'preact';
+
+import Tile from '../Tile/';
 import './index.scss';
 
 const POPULAR_URL = '/offers/popular';
@@ -12,62 +14,49 @@ class Grid extends Component {
     this.state = {
       data: null,
       isLoaded: false,
-      error: null,
-      offers: null
+      error: false
     }
   }
 
   componentDidMount() {
     fetch(POPULAR_URL, HEADERS)
       .then(response => response.json())
-      .then((data) => this.setState({ data: data, isLoaded: true, offers: data.offers }))
-      .catch((error) => this.setState({ error: error }));
+      .then((data) => {
+        console.log(data);
+        data = data.offers;
+        this.setState({ data: data, isLoaded: true })
+      })
+      .catch((error) => {
+        console.error('Error loading Hero data: ', error);
+        this.setState({ error: true })
+      });
   }
 
   render() {
-    const { data, offers, isLoaded, error } = this.state;
-    console.log(data);
+    const { data, isLoaded, error } = this.state;
 
-    // Something went wrong
-    if (error !== null) {
-      return (
-        <p>Error loading grid data: { error }</p>
-      );
-    }
-    // Display loading until fetch data has finished
-    if (isLoaded === false) {
-      return (
-        <p>Loading animation here!</p>
-      );
+    // Something went wrong, or still loading
+    if (error) {
+      return ( <p>Something seems to be wrong. Please refresh and try again.</p> );
+    } else if (!isLoaded) {
+      return ( <p>Loading...</p> );
     }
 
     // Everything is working...
     return (
       <div className="Grid">
-      {offers.map( (item, index) =>
-        <div key={index} className="grid-item">
-          <img className="img" src={item.offerMedia[1].mediaUrl.replace(/{{options}}/g, 'w_250,')}/>
-          <div className="content">
-            <div className="left">
-              <h2 className="merchant">{item.merchant.merchantName}</h2>
-              <p className="title">
-                {
-                  item.isExclusive &&
-                  <span className="exclusive">Groupon Exclusive: </span>
-                }
-                {item.offerTitle}
-              </p>
-              <p className="stats">
-                <span className="redemptionCount">{item.offerStatistics.redemptionCount7Day}</span> used | Expires&nbsp;
-                <span className="Expiry">{new Date(item.expiryDateTime).getDate()}/{new Date(item.expiryDateTime).getMonth()}/{new Date(item.expiryDateTime).getFullYear()}</span>
-              </p>
-            </div>
-            <div className="right">
-              <img className="merchant-logo" src={item.merchant.merchantMedia[0].mediaUrl.replace(/{{options}}/g, 'w_75,')} />
-              <button>See Code</button>
-            </div>
-          </div>
-        </div>
+      {data.map( (item, index) =>
+        <Tile
+          key={index}
+          merchantName={item.merchant.merchantName}
+          merchantLogo={item.merchant.merchantMedia[0].mediaUrl}
+          img={item.offerMedia[1].mediaUrl}
+          imgOptions={item.imgOptions}
+          title={item.offerTitle}
+          isExclusive={item.isExclusive}
+          redeemCount={item.offerStatistics.redemptionCount7Day}
+          expiry={item.expiryDateTime}
+        />
       )}
       </div>
     );

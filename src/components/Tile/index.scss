@@ -1,0 +1,57 @@
+.Tile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+
+  .img{
+    margin: -10px;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .content{
+    display: flex;
+  }
+
+  .information{
+    width: 80%;
+
+    .merchant-name{
+      margin: 20px 0 10px 0;
+    }
+    .title{
+      margin: 0 0 10px 0;
+    }
+    .statistics{
+      font-size: 14px;
+      margin: 20px 0 0 0;
+      color: #aaa;
+    }
+  }
+
+  .link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+
+    .merchant-logo{
+      border-radius: 4px;
+    }
+
+    button{
+      margin-top: 10px;
+      background: #53a319;
+      color: white;
+      padding: 5px;
+      border-radius: 4px;
+      width: 100px;
+      margin-top: 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
