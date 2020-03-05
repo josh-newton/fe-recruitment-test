@@ -19,12 +19,20 @@ class Hero extends Component {
   componentDidMount() {
     fetch(HERO_URL, HEADERS)
       .then(response => response.json())
-      .then((data) => this.setState({ data: data, isLoading: false }))
+      .then((data) => this.setState({ data: data.category.premiumOffers[0], isLoaded: true }))
       .catch((error) => this.setState({ error: error }));
   }
 
   render() {
     const { data, isLoaded, error } = this.state;
+    const options = 'w_550,';
+    let imgSrc;
+    if(isLoaded === true){
+      imgSrc = data.offerMedia[1].mediaUrl.replace(/{{options}}/g, options);
+    } else {
+      imgSrc = '';
+    }
+
     console.log(data);
 
     // Something went wrong
@@ -34,16 +42,37 @@ class Hero extends Component {
       );
     }
     // Display loading until fetch data has finished
-    if (isLoaded) {
+    if (isLoaded === false) {
       return (
         <p>Loading animation here!</p>
       );
     }
 
+
     // Everything is working...
     return (
       <div className="Hero">
-        <p>Hero Component</p>
+        <img className="img" src={imgSrc} />
+        <div className="content">
+          <div className="left">
+            <h2 className="merchant">{data.merchant.merchantName}</h2>
+            <p className="title">
+              {
+                data.isExclusive &&
+                <span className="exclusive">Groupon Exclusive: </span>
+              }
+              {data.offerTitle}
+            </p>
+            <p className="stats">
+              <span className="redemptionCount">{data.offerStatistics.redemptionCount7Day}</span> used | Expires&nbsp;
+              <span className="Expiry">{new Date(data.expiryDateTime).getDate()}/{new Date(data.expiryDateTime).getMonth()}/{new Date(data.expiryDateTime).getFullYear()}</span>
+            </p>
+          </div>
+          <div className="right">
+            <img className="merchant-logo" src={data.merchant.merchantMedia[0].mediaUrl.replace(/{{options}}/g, 'w_75,')} />
+            <button>See Code</button>
+          </div>
+        </div>
       </div>
     );
   }
