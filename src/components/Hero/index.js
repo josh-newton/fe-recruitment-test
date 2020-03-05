@@ -32,15 +32,6 @@ class Hero extends Component {
       });
   }
 
-  formatDate(dateString) {
-    let date = new Date(dateString);
-    return date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear();
-  }
-
-  getImageSrc(srcString, options) {
-    return srcString !== null ? srcString.replace(/{{options}}/g, options) : '';
-  }
-
   render() {
     const { data, isLoaded, error } = this.state;
 
@@ -48,18 +39,18 @@ class Hero extends Component {
     if (error) {
       return ( <p>Something seems to be wrong. Please refresh and try again.</p> );
     } else if (!isLoaded) {
-      return ( <p>Loading...</p> );
+      return ( <p>Loading hero data...</p> );
     }
 
     // Everything is working...
     return (
       <div className="Hero">
         <Tile
-          key="hero"
+          key={data.offerId}
           merchantName={data.merchant.merchantName}
           merchantLogo={data.merchant.merchantMedia[0].mediaUrl}
           img={data.offerMedia[1].mediaUrl}
-          imgOptions={data.imgOptions}
+          imgOptions="w_550,"
           title={data.offerTitle}
           isExclusive={data.isExclusive}
           redeemCount={data.offerStatistics.redemptionCount7Day}

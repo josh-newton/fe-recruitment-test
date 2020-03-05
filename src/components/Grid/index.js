@@ -39,7 +39,7 @@ class Grid extends Component {
     if (error) {
       return ( <p>Something seems to be wrong. Please refresh and try again.</p> );
     } else if (!isLoaded) {
-      return ( <p>Loading...</p> );
+      return ( <p>Loading grid data...</p> );
     }
 
     // Everything is working...
@@ -47,11 +47,11 @@ class Grid extends Component {
       <div className="Grid">
       {data.map( (item, index) =>
         <Tile
-          key={index}
+          key={item.offerId}
           merchantName={item.merchant.merchantName}
           merchantLogo={item.merchant.merchantMedia[0].mediaUrl}
           img={item.offerMedia[1].mediaUrl}
-          imgOptions={item.imgOptions}
+          imgOptions="w_200,"
           title={item.offerTitle}
           isExclusive={item.isExclusive}
           redeemCount={item.offerStatistics.redemptionCount7Day}

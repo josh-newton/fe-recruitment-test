@@ -24,6 +24,7 @@ class Tile extends Component {
       merchantName,
       merchantLogo,
       img,
+      imgOptions,
       title,
       isExclusive,
       redeemCount,
@@ -32,7 +33,7 @@ class Tile extends Component {
 
     return (
       <div key={key} className="Tile">
-        <img className="img" src={this.getImageSrc(img, 'w_150,')} />
+        <img className="img" src={this.getImageSrc(img, imgOptions)} />
         <div className="content">
           <div className="information">
             <h2 className="merchant-name">{merchantName}</h2>
