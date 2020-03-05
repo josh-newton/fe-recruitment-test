@@ -1,0 +1,138 @@
+{
+   "Category": {
+      "OnlineOffersCount": 42,
+      "InStoreOffersCount": 0,
+      "Slug": "food-drink",
+      "ParentId": null,
+      "IsRoot": true,
+      "ForDisplay": true,
+      "Media": [
+         {
+            "MediaType": "CategoryBanner",
+            "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Food_Drink_category_banner_11.jpg",
+            "IsMainImage": false
+         }
+      ],
+      "SlugsByCountryCode": null,
+      "Id": 425,
+      "Name": "Food & Drink",
+      "Description": "Food & Drink",
+      "PremiumOffers": [
+         {
+            "MerchantDescription": "Dominos has been the king of pizza delivery since 1960 and has always focused on using the best ingredients while providing super-fast delivery. For delicious pizza that's hot and always on time -use our Dominos voucher codes to save money on your perfect feast. Whether you like your pizza spicy, made up like a meat feast or topped full of veg, there’s a winning combo for every pizza preference. And of course, you’d be remiss if you didn’t add a side or two and make a meal of it.",
+            "IsLimitedPerUser": false,
+            "UserRedemptionsAllowed": 0,
+            "UserRedemptionsRemaining": null,
+            "Merchant": {
+               "MerchantId": 134005,
+               "MerchantMedia": [
+                  {
+                     "MediaType": "Logo",
+                     "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/dominos_pizza_logo_4.jpg",
+                     "IsMainImage": true
+                  },
+                  {
+                     "MediaType": "VenueIntersitial",
+                     "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Venues_D__6311_dominos_featured_140423.jpg",
+                     "IsMainImage": false
+                  },
+                  {
+                     "MediaType": "PremiumOfferImage",
+                     "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/dominos_pizza_premiumofferimage.jpg",
+                     "IsMainImage": false
+                  },
+                  {
+                     "MediaType": "HeroBannerMain",
+                     "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/dominos_pizza_herobannermain.jpg",
+                     "IsMainImage": false
+                  },
+                  {
+                     "MediaType": "OfferLifestyleImage",
+                     "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/dominos_pizza_offerlifestyleimage.jpg",
+                     "IsMainImage": false
+                  }
+               ],
+               "MerchantName": "Domino's Pizza",
+               "MerchantSlug": "dominos-pizza",
+               "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/134005/redirect?ownerId=A1AD47E8",
+               "MerchantWebsiteName": "www.dominos.co.uk",
+               "IsUserFavourite": false,
+               "TotalOffers": 13,
+               "TotalListableOffers": 13,
+               "CalloutColour": "336F93",
+               "RequiresBranchPreSelection": false,
+               "NicheMerchant": false,
+               "TotalBranches": 48
+            },
+            "CountDownType": "None",
+            "DiscountType": "Other",
+            "DiscountValue": 0.0,
+            "ExpiryDateTime": "2020-02-29T23:59:59.0000000Z",
+            "StartDateTime": "2020-01-08T00:00:00.0000000Z",
+            "GlobalRedemptionsAllowed": 0,
+            "GlobalRedemptionsRemaining": null,
+            "IsExclusive": false,
+            "IsFeatured": false,
+            "IsLimitedGlobally": false,
+            "IsSaved": false,
+            "IsRedeemed": false,
+            "IsStaffPick": false,
+            "IsValidToday": true,
+            "IsCommunityCode": false,
+            "OfferId": 2626110,
+            "OfferMedia": [
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/dominos_pizza_premiumofferimage.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/dominos_pizza_offerlifestyleimage.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferCalloutImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/_10_off_LIGHT_offer_callout_image_2",
+                  "IsMainImage": false
+               }
+            ],
+            "OfferTitle": "Order Over €30 and Get €10 Off at Domino's Pizza",
+            "OfferDescription": null,
+            "OfferType": "OnlineCode",
+            "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2626110/redirect?ownerId=A1AD47E8",
+            "RedemptionTypes": ["Code", "Url"],
+            "TermsAndConditions": {
+               "Terms": "Cannot be used in conjunction with any other offer|One per person|For full Terms & Conditions please see website|Available whilst stocks last|All brands reserve the right to remove any offer without giving prior notice",
+               "ExcludeOnBankHolidays": false,
+               "ExcludeOnValentinesDay": false,
+               "InvalidDays": null,
+               "InvalidMonths": null,
+               "MinimumSpend": null
+            },
+            "TotalBranches": 0,
+            "VerificationState": "Unverified",
+            "WebsiteName": "www.dominos.ie",
+            "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/134005/redirect?ownerId=A1AD47E8",
+            "CurrencySign": "£",
+            "DomainIds": [19],
+            "IsPremiumOffer": true,
+            "PremiumBgColour": "336F93",
+            "PremiumTextColour": 1,
+            "CalloutValue": "€10 Off",
+            "FinancialTerms": [],
+            "Categories": [425, 115],
+            "OfferStatistics": {
+               "RedemptionCount7Day": 732,
+               "RedemptionCount24Hr": 67
+            },
+            "IsSecretCode": false,
+            "StaticCode": "KEYPIZZA",
+            "IsPromotedOffer": false,
+            "ThirdPartyDataShareMessage": null,
+            "IsHeadlineOffer": false,
+            "LoyaltyTier": 0
+         }
+      ]
+   }
+}

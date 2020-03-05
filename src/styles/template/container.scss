@@ -1,0 +1,23 @@
+/* -----------------------------------
+ *
+ * Container
+ *
+ * -------------------------------- */
+
+.container {
+   margin: 0 auto;
+   padding: 0 10px;
+   box-sizing: border-box;
+
+   @include breakpoint('md') {
+      max-width: $screen-md;
+   }
+
+   @include breakpoint('lg') {
+      max-width: $screen-lg;
+   }
+
+   @include breakpoint('xl') {
+      max-width: $screen-xl;
+   }
+}

@@ -1,0 +1,1216 @@
+{
+   "Offers": [
+      {
+         "Branch": null,
+         "IsLimitedPerUser": true,
+         "UserRedemptionsAllowed": 3,
+         "UserRedemptionsRemaining": 3,
+         "Merchant": {
+            "MerchantId": 142507,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_logo_2.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_galleryimage.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_offerinterstitial.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_premiumofferimage.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_herobannermain.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_offerlifestyleimage.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Deliveroo",
+            "MerchantSlug": "deliveroo",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/142507/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "deliveroo.co.uk",
+            "IsUserFavourite": false,
+            "TotalOffers": 12,
+            "TotalListableOffers": 12,
+            "CalloutColour": "03AAA6",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 0
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-03-31T22:59:59.0000000Z",
+         "StartDateTime": "2020-02-03T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 10000,
+         "GlobalRedemptionsRemaining": 7712,
+         "IsExclusive": true,
+         "IsFeatured": true,
+         "IsLimitedGlobally": true,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2670390,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_galleryimage.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "OfferInterstitial",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_offerinterstitial.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_premiumofferimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/deliveroo_offerlifestyleimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Savings_WHITE_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "Save £2.50 When You First Order at Deliveroo",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2670390/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "For £2.50 off your first order (new Deliveroo customers only) register and enter your unique code at checkout on https://deliveroo.co.uk or via the Deliveroo app|The code is valid to 31/3/2020|Minimum spend of £10 applies|Specific menu items subject to availability|Limit of 1 per person|Credit of £2.50 will be redeemed against customer’s first order subject to the minimum spend and cannot be redeemed in conjunction with another discount|See the voucher terms at https://deliveroo.co.uk/legal for full terms|For assistance please contact the Deliveroo Customer Support team at support@deliveroo.co.uk or by telephone on +44 203 699 9977",
+            "ExcludeOnBankHolidays": false,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": null,
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "deliveroo.co.uk",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/142507/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "03AAA6",
+         "PremiumTextColour": 1,
+         "CalloutValue": "Savings",
+         "FinancialTerms": [],
+         "Categories": [425, 294, 5, 115, 4],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 1116,
+            "RedemptionCount24Hr": 141
+         },
+         "IsSecretCode": false,
+         "StaticCode": null,
+         "IsPromotedOffer": true,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": false,
+         "UserRedemptionsAllowed": 0,
+         "UserRedemptionsRemaining": null,
+         "Merchant": {
+            "MerchantId": 10,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_logo_1.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "VenueIntersitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Venues_L__7193_Loch_Fyne_Featured_150204.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "MerchantBanner",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_seafood_and_grill_banner.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_galleryimage_6.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_offerinterstitial_6.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_premiumofferimage_6.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_herobannermain_6.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_offerlifestyleimage_1.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Loch Fyne Seafood and Grill",
+            "MerchantSlug": "loch-fyne",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/10/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "www.lochfyneseafoodandgrill.co.uk",
+            "IsUserFavourite": false,
+            "TotalOffers": 13,
+            "TotalListableOffers": 13,
+            "CalloutColour": "C9B47B",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 21
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-02-29T23:59:59.0000000Z",
+         "StartDateTime": "2020-02-01T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 0,
+         "GlobalRedemptionsRemaining": null,
+         "IsExclusive": false,
+         "IsFeatured": false,
+         "IsLimitedGlobally": false,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2658368,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_seafood_and_grill_star_deal_lunch_set_menu_2_courses_for_1195_or_2_courses_for_1395_at_loch_fyne_seafood_and_grill_gallery_image.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_premiumofferimage_5.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/loch_fyne_offerlifestyleimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/25_off_LIGHT_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "25% Discount on A La Carte Mains at Loch Fyne Seafood and Grill",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2658368/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "Available: Between 1st - 29th February 2020 with mains from the a la carte food menu only|Not valid: after 6pm Fridays and Saturdays|All other menus including brunch, set menus and special event menus are excluded|Not valid with any other offer, promotion or discount or Loch Fyne Friends Card|Not valid at Cairndow or London Gracechurch Street, not valid in Twickenham on rugby match days|One voucher per table for a max 6 diners|Offer subject to availability|We reserve the right to cancel, amend or withdraw this offer at any time",
+            "ExcludeOnBankHolidays": false,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": null,
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "www.lochfyneseafoodandgrill.co.uk",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/10/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "C9B47B",
+         "PremiumTextColour": 1,
+         "CalloutValue": "25% Off",
+         "FinancialTerms": [],
+         "Categories": [425, 4],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 76,
+            "RedemptionCount24Hr": 15
+         },
+         "IsSecretCode": false,
+         "StaticCode": "6600400001610",
+         "IsPromotedOffer": false,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": false,
+         "UserRedemptionsAllowed": 0,
+         "UserRedemptionsRemaining": null,
+         "Merchant": {
+            "MerchantId": 953,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_italian_logo_1.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "VenueIntersitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Venues_G__3892_ASK_featured_141223.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "MerchantBanner",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_italian_banner.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_galleryimage_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_offerinterstitial_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_premiumofferimage_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_herobannermain_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_offerlifestyleimage_2.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "ASK Italian",
+            "MerchantSlug": "ask",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/953/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "www.askitalian.co.uk",
+            "IsUserFavourite": false,
+            "TotalOffers": 8,
+            "TotalListableOffers": 8,
+            "CalloutColour": "164039",
+            "RequiresBranchPreSelection": true,
+            "NicheMerchant": false,
+            "TotalBranches": 113
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-02-22T16:59:59.0000000Z",
+         "StartDateTime": "2020-02-16T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 0,
+         "GlobalRedemptionsRemaining": null,
+         "IsExclusive": false,
+         "IsFeatured": false,
+         "IsLimitedGlobally": false,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2691993,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_italian_lunch_menu_2_courses_from_995_at_ask_italian_gallery_image.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_premiumofferimage_3.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/ask_offerlifestyleimage_2.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/25_off_LIGHT_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "25% Discount on Food at ASK Italian",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2691993/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "Offer is only valid Sunday to Friday (all day), until 22nd February|Offer is valid between 16.02.2020 to 22.02.2020 only on the days mentioned above|Enjoy a 25% discount off your total food bill|Offer not available in conjunction with any other offer, set menus (including Kids menu) or Tesco vouchers|Excludes Westfield Stratford|Excludes ASK Italian – The O2, Cardiff and Twickenham on match and/or event days|A valid code must be downloaded and presented to your waiter before ordering. Valid on dine in only|This offer is valid for a single group / party only, bills cannot be split to benefit from multiple discounts|This offer is valid for a maximum party size of 8 people|Codes will be checked against a live database and incorrect or previously used codes will not be accepted|This code is valid for one use only",
+            "ExcludeOnBankHolidays": false,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": [6],
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "www.askitalian.co.uk",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/953/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "164039",
+         "PremiumTextColour": 1,
+         "CalloutValue": "25% Off",
+         "FinancialTerms": [],
+         "Categories": [425, 4],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 60,
+            "RedemptionCount24Hr": 10
+         },
+         "IsSecretCode": false,
+         "StaticCode": null,
+         "IsPromotedOffer": false,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": false,
+         "UserRedemptionsAllowed": 0,
+         "UserRedemptionsRemaining": null,
+         "Merchant": {
+            "MerchantId": 143759,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_logo.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_galleryimage_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_premiumofferimage_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_offerinterstitial_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_herobannermain_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_offerlifestyleimage.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Stonehouse Pizza & Carvery",
+            "MerchantSlug": "stonehouse-pizza-and-carvery",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/143759/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "www.stonehouserestaurants.co.uk",
+            "IsUserFavourite": false,
+            "TotalOffers": 14,
+            "TotalListableOffers": 14,
+            "CalloutColour": "239CBA",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 69
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-02-28T23:59:59.0000000Z",
+         "StartDateTime": "2020-02-07T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 0,
+         "GlobalRedemptionsRemaining": null,
+         "IsExclusive": false,
+         "IsFeatured": false,
+         "IsLimitedGlobally": false,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2679057,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_galleryimage_1.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "OfferInterstitial",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_offerinterstitial_1.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_premiumofferimage_1.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/stonehouse_pizza_and_carvery_offerlifestyleimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Kids_Eat_1_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "This Half-Term Holiday - Kids Eat for £1 at Stonehouse Pizza & Carvery",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2679057/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "This voucher entitles you to one children’s main meal or carvery for £1 each from our children’s menu on the purchase of an adult main meal. Offer valid Monday to Saturday. Valid from Friday 7th to Saturday 22nd February in Scotland only. Valid from Friday 14th to Friday 28th February in England & Wales. One adult main entitles you to one children’s main for £1, two adult mains entitle you to two children’s mains for £1 each. Valid for up to 4 adults and 4 children. This offer is suitable for children 10 years and under. Simply show the voucher in any participating Stonehouse Pizza and Carvery to redeem this offer. Subject to availability and can't be combined with another discount offer or promotion on the same visit including Groupon or in-restaurant deals. No cash alternative and not valid on takeaway. Promoter is Mitchells & Butlers trading as Stonehouse Pizza and Carvery.",
+            "ExcludeOnBankHolidays": false,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": [7],
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "www.stonehouserestaurants.co.uk",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/143759/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "239CBA",
+         "PremiumTextColour": 1,
+         "CalloutValue": "Kids Eat £1",
+         "FinancialTerms": [],
+         "Categories": [425, 4],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 24,
+            "RedemptionCount24Hr": 3
+         },
+         "IsSecretCode": false,
+         "StaticCode": null,
+         "IsPromotedOffer": false,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": true,
+         "UserRedemptionsAllowed": 4,
+         "UserRedemptionsRemaining": 4,
+         "Merchant": {
+            "MerchantId": 113080,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_logo_15.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "MerchantBanner",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_banner_5.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_galleryimage_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_offerinterstitial_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_premiumofferimage_5.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_herobannermain_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "AppHubBanner",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_apphubbanner.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_offerlifestyleimage_6.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Groupon",
+            "MerchantSlug": "groupon",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/113080/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "www.groupon.co.uk",
+            "IsUserFavourite": false,
+            "TotalOffers": 13,
+            "TotalListableOffers": 13,
+            "CalloutColour": "53A318",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 0
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-02-23T23:59:59.0000000Z",
+         "StartDateTime": "2020-02-17T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 39936,
+         "GlobalRedemptionsRemaining": 35202,
+         "IsExclusive": true,
+         "IsFeatured": false,
+         "IsLimitedGlobally": true,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2695040,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_galleryimage_1.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "OfferInterstitial",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_offerinterstitial_1.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_premiumofferimage_5.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/groupon_offerlifestyleimage_6.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/20_off_LIGHT_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "Take 20% Off When You Book a Local Deal at Groupon",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2695040/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "Cannot be used in conjunction with any other offer|One per person|For full Terms & Conditions please see website|Available whilst stocks last|All brands reserve the right to remove any offer without giving prior notice|Maximum discount £20",
+            "ExcludeOnBankHolidays": false,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": null,
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "www.groupon.co.uk",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/113080/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "53A318",
+         "PremiumTextColour": 1,
+         "CalloutValue": "20% Off",
+         "FinancialTerms": [],
+         "Categories": [7, 168, 425, 4, 3, 194, 340, 328, 6],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 4670,
+            "RedemptionCount24Hr": 1153
+         },
+         "IsSecretCode": false,
+         "StaticCode": null,
+         "IsPromotedOffer": true,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": false,
+         "UserRedemptionsAllowed": 0,
+         "UserRedemptionsRemaining": null,
+         "Merchant": {
+            "MerchantId": 6136,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Venues_T__8709_toby_logo.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "MerchantBanner",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_banner.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_galleryimage_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_offerinterstitial_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_premiumofferimage_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_herobannermain_3.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_offerlifestyleimage_1.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Toby Carvery",
+            "MerchantSlug": "toby-carvery",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/6136/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "www.tobycarvery.co.uk",
+            "IsUserFavourite": false,
+            "TotalOffers": 12,
+            "TotalListableOffers": 12,
+            "CalloutColour": "9C1C33",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 161
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-02-28T23:59:59.0000000Z",
+         "StartDateTime": "2020-02-07T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 0,
+         "GlobalRedemptionsRemaining": null,
+         "IsExclusive": false,
+         "IsFeatured": false,
+         "IsLimitedGlobally": false,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2679110,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_galleryimage_2.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "OfferInterstitial",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_offerinterstitial_3.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_premiumofferimage_2.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/toby_carvery_offerlifestyleimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/Kids_Eat_1_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "This Half Term: Kids Can Eat for Only £1 When You Dine at Toby Carvery",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2679110/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "This voucher entitles you to one children’s main meal, carvery or breakfast for £1 each from our children’s menu on the purchase of an adult main or breakfast. Excludes Sundays and bank holidays. Offer valid Monday to Saturday until Friday 28th February 2020. Valid from Friday 7th February in Scotland only. Valid from Friday 14th February in England & Wales. One adult main entitles you to one children’s main for £1, two adult mains entitle you to two children’s mains for £1 each. Valid for up to 4 adults and 4 children. This offer is suitable for children 12 years and under. Simply show the voucher in any participating Toby Carvery to redeem this offer. Subject to availability and can't be combined with another discount offer or promotion on the same visit including Groupon or in-restaurant deals. No cash alternative and not valid on takeaway. Promoter is Mitchells & Butlers trading as Toby Carvery.",
+            "ExcludeOnBankHolidays": true,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": [7],
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "www.tobycarvery.co.uk",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/6136/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "9C1C33",
+         "PremiumTextColour": 1,
+         "CalloutValue": "Kids Eat £1",
+         "FinancialTerms": [],
+         "Categories": [425, 4],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 275,
+            "RedemptionCount24Hr": 31
+         },
+         "IsSecretCode": false,
+         "StaticCode": null,
+         "IsPromotedOffer": false,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": false,
+         "UserRedemptionsAllowed": 0,
+         "UserRedemptionsRemaining": null,
+         "Merchant": {
+            "MerchantId": 1142,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_logo.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "MerchantBanner",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_banner.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_galleryimage_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_offerinterstitial_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_premiumofferimage_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_herobannermain_1.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_offerlifestyleimage.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Giraffe",
+            "MerchantSlug": "giraffe",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/1142/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "www.giraffe.net",
+            "IsUserFavourite": false,
+            "TotalOffers": 9,
+            "TotalListableOffers": 9,
+            "CalloutColour": "B12A49",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 11
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-05-12T22:59:59.0000000Z",
+         "StartDateTime": "2020-02-12T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 0,
+         "GlobalRedemptionsRemaining": null,
+         "IsExclusive": false,
+         "IsFeatured": false,
+         "IsLimitedGlobally": false,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2689718,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_galleryimage_1.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "OfferInterstitial",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_offerinterstitial_1.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_premiumofferimage_1.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/giraffe_offerlifestyleimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/30_off_LIGHT_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "30% Off Mains Orders at Giraffe (Valid Monday to Friday)",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2689718/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "Max number of Mains per table is 6|You can use this voucher Monday to Friday, excluding Bank Holidays|You can use this offer in conjunction with Happy Hour|You cannot use this voucher with any other offer or promotion|Excludes delivery|Not valid at Giraffe Southbank, Victoria, Giraffe Kings Cross or at any airport locations|Giraffe can amend or withdraw this voucher at any time",
+            "ExcludeOnBankHolidays": true,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": null,
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "www.giraffe.net",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/1142/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "B12A49",
+         "PremiumTextColour": 1,
+         "CalloutValue": "30% Off",
+         "FinancialTerms": [],
+         "Categories": [425, 4],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 24,
+            "RedemptionCount24Hr": 8
+         },
+         "IsSecretCode": false,
+         "StaticCode": null,
+         "IsPromotedOffer": true,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": false,
+         "UserRedemptionsAllowed": 0,
+         "UserRedemptionsRemaining": null,
+         "Merchant": {
+            "MerchantId": 6741,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_logo.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "MerchantBanner",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_banner.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_galleryimage.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_offerinterstitial.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_premiumofferimage.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_herobannermain.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_offerlifestyleimage.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Naked Wines",
+            "MerchantSlug": "naked-wines",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/6741/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "www.nakedwines.com",
+            "IsUserFavourite": false,
+            "TotalOffers": 10,
+            "TotalListableOffers": 10,
+            "CalloutColour": "1154B2",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 0
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-03-08T23:59:59.0000000Z",
+         "StartDateTime": "2019-12-08T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 0,
+         "GlobalRedemptionsRemaining": null,
+         "IsExclusive": true,
+         "IsFeatured": false,
+         "IsLimitedGlobally": false,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2277639,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_galleryimage.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "OfferInterstitial",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_offerinterstitial.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_premiumofferimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/naked_wines_offerlifestyleimage.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/AmazingDiscountWHITE_offer_callout_image_1",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "Get £75 Off Cases of Wine and Free Prosecco at Naked Wines",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2277639/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "Cannot be used in conjunction with any other offer|One per person|For full Terms & Conditions please see website|Available whilst stocks last|All brands reserve the right to remove any offer without giving prior notice",
+            "ExcludeOnBankHolidays": false,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": null,
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "www.nakedwines.com",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/6741/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "1154B2",
+         "PremiumTextColour": 1,
+         "CalloutValue": "Amazing Discount",
+         "FinancialTerms": [],
+         "Categories": [425, 427],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 439,
+            "RedemptionCount24Hr": 53
+         },
+         "IsSecretCode": false,
+         "StaticCode": "VCB19",
+         "IsPromotedOffer": true,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      },
+      {
+         "Branch": null,
+         "IsLimitedPerUser": false,
+         "UserRedemptionsAllowed": 0,
+         "UserRedemptionsRemaining": null,
+         "Merchant": {
+            "MerchantId": 143959,
+            "MerchantMedia": [
+               {
+                  "MediaType": "Logo",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_logo_2.jpg",
+                  "IsMainImage": true
+               },
+               {
+                  "MediaType": "GalleryImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_galleryimage_2.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferInterstitial",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_offerinterstitial_2.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "PremiumOfferImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_premiumofferimage_2.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "HeroBannerMain",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_herobannermain_2.jpg",
+                  "IsMainImage": false
+               },
+               {
+                  "MediaType": "OfferLifestyleImage",
+                  "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_offerlifestyleimage_1.jpg",
+                  "IsMainImage": false
+               }
+            ],
+            "MerchantName": "Ed's Easy Diner",
+            "MerchantSlug": "eds-easy-diner",
+            "MerchantWebsite": "https://restfulapi.vouchercloud.com/merchants/143959/redirect?ownerId=A1AD47E8",
+            "MerchantWebsiteName": "edseasydiner.com",
+            "IsUserFavourite": false,
+            "TotalOffers": 14,
+            "TotalListableOffers": 14,
+            "CalloutColour": "EB2026",
+            "RequiresBranchPreSelection": false,
+            "NicheMerchant": false,
+            "TotalBranches": 13
+         },
+         "CountDownType": "None",
+         "DiscountType": "Other",
+         "DiscountValue": 0.0,
+         "ExpiryDateTime": "2020-05-12T22:59:59.0000000Z",
+         "StartDateTime": "2020-02-12T00:00:00.0000000Z",
+         "GlobalRedemptionsAllowed": 0,
+         "GlobalRedemptionsRemaining": null,
+         "IsExclusive": false,
+         "IsFeatured": false,
+         "IsLimitedGlobally": false,
+         "IsSaved": false,
+         "IsRedeemed": false,
+         "IsStaffPick": false,
+         "IsValidToday": true,
+         "IsCommunityCode": false,
+         "OfferId": 2689715,
+         "OfferMedia": [
+            {
+               "MediaType": "GalleryImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_galleryimage_2.jpg",
+               "IsMainImage": true
+            },
+            {
+               "MediaType": "OfferInterstitial",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_offerinterstitial_2.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "PremiumOfferImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_premiumofferimage_2.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferLifestyleImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/eds_easy_diner_offerlifestyleimage_1.jpg",
+               "IsMainImage": false
+            },
+            {
+               "MediaType": "OfferCalloutImage",
+               "MediaUrl": "https://invitationdigital-res-1.cloudinary.com/image/upload/{{options}}q_auto,fl_strip_profile,f_auto/30_off_LIGHT_offer_callout_image",
+               "IsMainImage": false
+            }
+         ],
+         "OfferTitle": "30% Off Breakfast & Main Courses on Monday to Friday at Ed's Easy Diner",
+         "OfferDescription": null,
+         "OfferType": "OnlineCode",
+         "OfferUrl": "https://restfulapi.vouchercloud.com/offers/2689715/redirect?ownerId=A1AD47E8",
+         "RedemptionTypes": ["Code", "Url"],
+         "TermsAndConditions": {
+            "Terms": "Max number of Mains per table is 6|You can use this voucher Monday to Friday, excluding Bank Holidays|Not valid on Bottomless Breakfast, Junior Menu, Lunch Menu, starters, sides and desserts|Not valid in conjunction with any other offer or discount|Not valid at Ed's Easy Diner Selfridges|Excludes delivery|Ed's Easy Diner can amend or withdraw this voucher at any time",
+            "ExcludeOnBankHolidays": true,
+            "ExcludeOnValentinesDay": false,
+            "InvalidDays": null,
+            "InvalidMonths": null,
+            "MinimumSpend": null
+         },
+         "TotalBranches": 0,
+         "VerificationState": "Unverified",
+         "WebsiteName": "edseasydiner.com",
+         "WebsiteUrl": "https://restfulapi.vouchercloud.com/merchants/143959/redirect?ownerId=A1AD47E8",
+         "CurrencySign": "£",
+         "DomainIds": [19],
+         "IsPremiumOffer": true,
+         "PremiumBgColour": "EB2026",
+         "PremiumTextColour": 1,
+         "CalloutValue": "30% Off",
+         "FinancialTerms": [],
+         "Categories": [425, 4],
+         "OfferStatistics": {
+            "RedemptionCount7Day": 16,
+            "RedemptionCount24Hr": 2
+         },
+         "IsSecretCode": false,
+         "StaticCode": null,
+         "IsPromotedOffer": false,
+         "ThirdPartyDataShareMessage": null,
+         "IsHeadlineOffer": false,
+         "LoyaltyTier": 0
+      }
+   ],
+   "PageNumber": 1,
+   "Links": [
+      {
+         "rel": "Next",
+         "href": "https://restfulapi.vouchercloud.com/offers/popular/GB?categoryIds=425&domainIds=19&offerTypes=OnlineDeal%2COnlineSale%2COnlineCode&pageNumber=2&pageSize=9"
+      }
+   ]
+}
