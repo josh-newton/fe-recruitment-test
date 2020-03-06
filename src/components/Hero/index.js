@@ -46,16 +46,16 @@ class Hero extends Component {
     return (
       <div className="Hero">
         <Tile
-          key={data.offerId}
-          merchantName={data.merchant.merchantName}
-          merchantLogo={data.merchant.merchantMedia[0].mediaUrl}
-          img={data.offerMedia[1].mediaUrl}
+          key={ data.offerId }
+          merchantName={ data.merchant.merchantName }
+          merchantLogo={ data.merchant.merchantMedia[0].mediaUrl }
+          img={ data.offerMedia[1].mediaUrl }
           imgOptions=""
-          title={data.offerTitle}
-          callout={data.calloutValue}
-          isExclusive={data.isExclusive}
-          redeemCount={data.offerStatistics.redemptionCount7Day}
-          expiry={data.expiryDateTime}
+          title={ data.offerTitle }
+          callout={ data.calloutValue }
+          isExclusive={ data.isExclusive }
+          redeemCount={ data.offerStatistics.redemptionCount7Day }
+          expiry={ data.expiryDateTime }
         />
 
       </div>

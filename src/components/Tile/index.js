@@ -33,24 +33,22 @@ class Tile extends Component {
     } = this.props;
 
     return (
-      <div key={key} className="Tile">
-        <div className="img" style={'background-image: url("' + this.getImageSrc(img, imgOptions) + '");'}>
+      <div key={ key } className="Tile">
+        <div className="img" style={ 'background-image: url("' + this.getImageSrc(img, imgOptions) + '");' }>
         <div className="logo">
-          <img className="merchant-logo" src={this.getImageSrc(merchantLogo, 'w_75,')} />
+          <img className="merchant-logo" src={ this.getImageSrc(merchantLogo, 'w_75,') } />
         </div>
         </div>
-        <div className="content">
+        <div className="offer-details">
           <div className="header">
-            <h2 className="merchant-name">{merchantName}</h2>
-            <p className="callout">{callout}</p>
+            <h2 className="merchant-name">{ merchantName }</h2>
+            <p className="callout">{ callout }</p>
           </div>
-          <p className="title">
-            {title}
-          </p>
+          <p className="title">{ title }</p>
           <div className="footer">
             <button className="link">See Code</button>
             <p className="statistics">
-              Expires {this.formatDate(expiry)}
+              Expires { this.formatDate(expiry) }
             </p>
           </div>
         </div>

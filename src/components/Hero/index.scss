@@ -6,19 +6,23 @@
   @include breakpoint('lg'){
      .Tile{
        display: flex;
+
        .img{
          border-bottom: none;
          border-right: 2px solid #fff;
          border-radius: 4px 0 0 4px;
        }
+
        .logo{
          bottom: auto;
          top: 12px;
        }
+
        .statistics{
          text-align: right;
        }
-       .content{
+
+       .offer-details{
          min-width: 270px;
        }
      }

@@ -47,16 +47,16 @@ class Grid extends Component {
       <div className="Grid">
       {data.map( (item, index) =>
         <Tile
-          key={item.offerId}
-          merchantName={item.merchant.merchantName}
-          merchantLogo={item.merchant.merchantMedia[0].mediaUrl}
-          img={item.offerMedia[1].mediaUrl}
+          key={ item.offerId }
+          merchantName={ item.merchant.merchantName }
+          merchantLogo={ item.merchant.merchantMedia[0].mediaUrl }
+          img={ item.offerMedia[1].mediaUrl }
           imgOptions="w_600,"
-          title={item.offerTitle}
-          callout={item.calloutValue}
-          isExclusive={item.isExclusive}
-          redeemCount={item.offerStatistics.redemptionCount7Day}
-          expiry={item.expiryDateTime}
+          title={ item.offerTitle }
+          callout={ item.calloutValue }
+          isExclusive={ item.isExclusive }
+          redeemCount={ item.offerStatistics.redemptionCount7Day }
+          expiry={ item.expiryDateTime }
         />
       )}
       </div>
