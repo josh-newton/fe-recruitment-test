@@ -46,7 +46,7 @@ class Tile extends Component {
           </div>
           <p className="title">{ title }</p>
           <div className="footer">
-            <button className="link">See Code</button>
+            <a className="link" href="">See Code</a>
             <p className="statistics">
               Expires { this.formatDate(expiry) }
             </p>
