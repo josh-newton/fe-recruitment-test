@@ -9,7 +9,7 @@ class Filters extends Component {
 
     return(
       <div className="Filters">
-        <div class="date">
+        <div className="sort">
           <select onChange={onSortChange}>
             <option value="none" selected="selected">
               Sort by...
