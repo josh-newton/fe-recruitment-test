@@ -35,7 +35,7 @@ class Grid extends Component {
         this.setState({ data: [...data], filteredData: data, isLoaded: true })
       })
       .catch((error) => {
-        console.error('Error loading Hero data: ', error);
+        console.error('Error loading Grid data: ', error);
         this.setState({ error: true })
       });
   }
