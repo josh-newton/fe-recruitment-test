@@ -12,21 +12,26 @@ class Hero extends Component {
   constructor() {
     super();
     this.state = {
+      // will store original data returned from server
       data: null,
+      // false while we wait for data to load
       isLoaded: false,
+      // if error returned when we try to fetch data
       error: false
     }
   }
 
   componentDidMount() {
+    // Grab the data from server
     fetch(HERO_URL, HEADERS)
       .then(response => response.json())
       .then((data) => {
-        console.log(data);
+        // On success, save the data we need
         data = data.category.premiumOffers[0];
         this.setState({ data: data, isLoaded: true })
       })
       .catch((error) => {
+        // Output error to console, set error to true so we can display it to user
         console.error('Error loading Hero data: ', error);
         this.setState({ error: true })
       });
