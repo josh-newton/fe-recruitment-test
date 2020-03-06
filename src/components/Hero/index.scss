@@ -3,6 +3,10 @@
   @import '../../styles/variables/base';
   @import '../../styles/mixins/base';
 
+  .Tile{
+    background: #1D1128;
+  }
+
   @include breakpoint('lg'){
      .Tile{
        display: flex;
@@ -26,12 +30,6 @@
          min-width: 270px;
        }
      }
-  }
-
-  @include breakpoint('xs'){
-    .Tile{
-      background: #1D1128;
-    }
   }
 
 }
