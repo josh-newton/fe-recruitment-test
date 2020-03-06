@@ -17,19 +17,22 @@ class Grid extends Component {
       data: null,
       isLoaded: false,
       error: false,
-      filteredData: null
+      filteredData: null,
+      searchVal: '',
+      sortVal: 'none'
     }
 
     this.onSearchChange = this.onSearchChange.bind(this);
+    this.onSortChange = this.onSortChange.bind(this);
   }
 
   componentDidMount() {
     fetch(POPULAR_URL, HEADERS)
       .then(response => response.json())
       .then((data) => {
-        console.log(data);
+        console.log('Original', data.offers);
         data = data.offers;
-        this.setState({ data: data, filteredData: data, isLoaded: true })
+        this.setState({ data: [...data], filteredData: data, isLoaded: true })
       })
       .catch((error) => {
         console.error('Error loading Hero data: ', error);
@@ -38,22 +41,47 @@ class Grid extends Component {
   }
 
   onSearchChange(event) {
+    this.setState({ searchVal: event.target.value });
     this.filterBySearch(event.target.value);
   }
 
+  onSortChange(event) {
+    this.setState({ sortVal: event.target.value });
+    this.sortItems(event.target.value);
+    this.filterBySearch()
+  }
+
   filterBySearch(query) {
+    const { data, filteredData, sortVal } = this.state;
     // Ensure query is not empty
     if (query === '') {
-      this.setState({ filteredData: this.state.data });
+      this.setState({ filteredData: data });
       return;
     }
     // Convert query to uppercase so we can ignore case when searching
     query = query.toUpperCase();
-    this.setState({ filteredData: this.state.data.filter( item => item.merchant.merchantName.toUpperCase().match(query)) });
+    let filtered = data.filter( item => item.merchant.merchantName.toUpperCase().match(query));
+    this.setState({ filteredData: filtered });
+  }
+
+  sortItems(sort) {
+    const { data, filteredData, searchVal } = this.state;
+    switch(sort) {
+      case 'none':
+        this.setState({ filteredData: [...data] });
+        this.filterBySearch(searchVal);
+        break;
+      case 'recent':
+        this.setState({ filteredData: filteredData.sort((a, b) => new Date(b.startDateTime).getTime() - new Date(a.startDateTime).getTime()) });
+        break;
+      default:
+        this.setState({ filteredData: [...data] });
+        this.filterBySearch(searchVal);
+    }
   }
 
   render() {
-    const { filteredData, isLoaded, error, searchVal } = this.state;
+    const { filteredData, isLoaded, error, searchVal, sortVal } = this.state;
 
     // Something went wrong, or still loading
     if (error) {
@@ -66,7 +94,10 @@ class Grid extends Component {
     return (
       <div className="Grid">
         <Filters
+          searchVal={searchVal}
+          sortVal={sortVal}
           onSearchChange={this.onSearchChange}
+          onSortChange={this.onSortChange}
         />
         <div className="grid-items">
           {filteredData.length === 0 &&

@@ -5,11 +5,18 @@ import './index.scss';
 class Filters extends Component {
 
   render() {
-    const { searchVal, onSearchChange } = this.props;
+    const { searchVal, onSearchChange, onSortChange } = this.props;
 
     return(
       <div className="Filters">
-        <h3>Filters:</h3>
+        <div class="date">
+          <select onChange={onSortChange}>
+            <option value="none" selected="selected">
+              Sort by...
+            </option>
+            <option value="recent">Most recent</option>
+          </select>
+        </div>
         <div className="search">
           <label>
             <i class="fas fa-search"></i>
