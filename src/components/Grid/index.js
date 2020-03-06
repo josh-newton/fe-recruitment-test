@@ -55,7 +55,9 @@ class Grid extends Component {
     const { data, filteredData, sortVal } = this.state;
     // Ensure query is not empty
     if (query === '') {
-      this.setState({ filteredData: data });
+      this.setState({ filteredData: [...data] });
+      return;
+    } else if(query === undefined) {
       return;
     }
     // Convert query to uppercase so we can ignore case when searching
