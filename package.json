@@ -20,7 +20,7 @@
    },
    "dependencies": {
       "camelcase-keys": "6.1.2",
-      "express": "4.17.1",
+      "express": "4.17.3",
       "preact": "10.3.2",
       "tslib": "1.10.0"
    },
